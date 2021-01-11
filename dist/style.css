@@ -1,0 +1,76 @@
+body {
+    margin: 0;
+}
+
+.main-container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+.navbar {
+    background-color: #7A292D;
+    border-top: solid;
+    border-color: #02111B;
+    border-width: 7px;
+    box-shadow: 2px 2px 8px rgb(54, 54, 54);
+    z-index: 2;
+}
+
+.nav-option {
+    float: left;
+    list-style-type: none;
+    padding: 12px 50px;
+    font-size: 23px;
+    font-family: 'Open Sans', sans-serif;
+    color: #F8F0FB;
+}
+
+.title {
+    font-size: 40px;
+    font-family: 'Dancing Script', cursive;
+    margin-top: -13px;
+    margin-bottom: -10px;
+}
+
+.main-banner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("https://imgcp.aacdn.jp/img-a/1720/auto/global-aaj-front/article/2018/02/5a72d4d9d2d07_5a72d2877d3b0_1060769429.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 700px;
+}
+
+.banner-text {
+    background-color: rgb(0,0,0); 
+    background-color: rgba(0,0,0, 0.4);
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 200;
+    font-size: 50px;
+    text-align: center;
+    width: 800px;
+    color: #F8F0FB;
+    border: solid;
+    border-width: 5px;
+    border-color: #02111B;
+    padding: 30px;
+}
+
+.footer {
+    background-color:#7A292D;
+    box-shadow: 2px 2px 8px rgb(54, 54, 54);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-text {
+    font-family: 'Open Sans', sans-serif;
+    color: #F8F0FB;
+    font-size: 25px;
+}
