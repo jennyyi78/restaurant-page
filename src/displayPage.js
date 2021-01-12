@@ -1,3 +1,0 @@
-const displayController = (function () {
-
-})();

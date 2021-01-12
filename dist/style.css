@@ -2,6 +2,10 @@ body {
     margin: 0;
 }
 
+ul {
+    list-style-type: none;
+}
+
 .main-container {
     display: flex;
     flex-direction: column;
@@ -14,18 +18,21 @@ body {
     background-color: #7A292D;
     border-top: solid;
     border-color: #02111B;
-    border-width: 7px;
+    border-width: 12px;
     box-shadow: 2px 2px 8px rgb(54, 54, 54);
     z-index: 2;
 }
 
 .nav-option {
     float: left;
-    list-style-type: none;
     padding: 12px 50px;
     font-size: 23px;
     font-family: 'Open Sans', sans-serif;
     color: #F8F0FB;
+}
+
+.nav-option:hover {
+    color: #02111B;
 }
 
 .title {
@@ -34,6 +41,12 @@ body {
     margin-top: -13px;
     margin-bottom: -10px;
 }
+
+.title:hover {
+    color: #F8F0FB;
+}
+
+/* Homepage */
 
 .main-banner {
     display: flex;
@@ -63,7 +76,6 @@ body {
 
 .footer {
     background-color:#7A292D;
-    box-shadow: 2px 2px 8px rgb(54, 54, 54);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -73,4 +85,74 @@ body {
     font-family: 'Open Sans', sans-serif;
     color: #F8F0FB;
     font-size: 25px;
+}
+
+/* Menu */
+
+.menu-header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.menu-header-text {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 50px;
+}
+
+.menu-row {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.menu-header {
+    font-size: 35px;
+    padding: 10px;
+    margin-top: 10px;
+    color: #7A292D;
+    font-weight: bold;
+}
+
+.entry {
+    font-size: 25px;
+    padding: 10px;
+    font-weight: bold;
+    color:rgb(87, 82, 82);
+}
+
+.description {
+    width: 600px;
+}
+
+.menu-footer{
+    height: 200px
+}
+
+/* Contact Page */
+
+.contact-header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact-header-text {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 50px;
+    color: #7A292D;
+    font-weight: bold;
+}
+
+.contact-info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.info-text {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 35px;
 }
