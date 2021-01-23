@@ -1,34 +1,34 @@
 const displayContact = function () {
-    const mainContainer = document.querySelector(".main-container");
-    
-    const contactHeader = document.createElement("div");
-    contactHeader.classList.toggle("contact-header");
+  const mainContainer = document.querySelector('.main-container');
 
-    const contactHeaderText = document.createElement("p");
-    contactHeaderText.classList.toggle("contact-header-text");
-    const contactHeaderInnerText = document.createTextNode("Contact Us");
+  const contactHeader = document.createElement('div');
+  contactHeader.classList.toggle('contact-header');
 
-    contactHeaderText.appendChild(contactHeaderInnerText);
-    contactHeader.appendChild(contactHeaderText);
+  const contactHeaderText = document.createElement('p');
+  contactHeaderText.classList.toggle('contact-header-text');
+  const contactHeaderInnerText = document.createTextNode('Contact Us');
 
-    const contactInfo = document.createElement("div");
-    contactInfo.classList.toggle("contact-info");
+  contactHeaderText.appendChild(contactHeaderInnerText);
+  contactHeader.appendChild(contactHeaderText);
 
-    const addressText = document.createElement("p");
-    addressText.classList.toggle("info-text");
-    const addressInnerText = document.createTextNode("Address: Some Location");
-    addressText.appendChild(addressInnerText);
+  const contactInfo = document.createElement('div');
+  contactInfo.classList.toggle('contact-info');
 
-    const phoneText = document.createElement("p");
-    phoneText.classList.toggle("info-text");
-    const phoneInnerText = document.createTextNode("Phone Number: XXX-XXX-XXXX");
-    phoneText.appendChild(phoneInnerText);
+  const addressText = document.createElement('p');
+  addressText.classList.toggle('info-text');
+  const addressInnerText = document.createTextNode('Address: Some Location');
+  addressText.appendChild(addressInnerText);
 
-    contactInfo.appendChild(addressText);
-    contactInfo.appendChild(phoneText);
+  const phoneText = document.createElement('p');
+  phoneText.classList.toggle('info-text');
+  const phoneInnerText = document.createTextNode('Phone Number: XXX-XXX-XXXX');
+  phoneText.appendChild(phoneInnerText);
 
-    mainContainer.appendChild(contactHeader);
-    mainContainer.appendChild(contactInfo);
-}
+  contactInfo.appendChild(addressText);
+  contactInfo.appendChild(phoneText);
+
+  mainContainer.appendChild(contactHeader);
+  mainContainer.appendChild(contactInfo);
+};
 
 export default displayContact;
